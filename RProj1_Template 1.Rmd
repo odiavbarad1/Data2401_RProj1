@@ -2,7 +2,12 @@
 title: "R Project 1 - Hello R"
 author: "Daniel Odiavbara"
 date: "9/16/2020"
-output: html_document
+output: 
+  html_document: 
+    fig_height: 7
+    fig_width: 9
+    highlight: kate
+    theme: spacelab
 ---
 
 MAKE SURE YOU READ AND FOLLOW **ALL** INSTRUCTIONS ON THE INSTRUCTION DOCUMENT. 
@@ -76,7 +81,7 @@ The correlation between x and y for this data set
 dino_data %>%
   summarize(r = cor(x, y))
 ```
-There is no correlation between the two values
+There is no correlation betwen the two values
 
 ### Exercise 5
 
